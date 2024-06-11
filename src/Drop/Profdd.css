@@ -1,0 +1,27 @@
+.dd{
+    position: absolute;
+    top: 5.4rem;
+    right: 1rem;
+    width: 120px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .5);
+    background-color: var(--color-background);
+}
+.ull li{
+    position: relative;
+    list-style: none;
+    font-size: 17px;
+    left: 5px;
+    font-weight: 700;
+    padding: 12px 0;
+    font-family: "Kumbh Sans", sans-serif;
+    width: 110px;
+    border-radius: 10px;
+    margin: 4px 0;
+    text-align: center;
+}
+.ull li:hover{
+    cursor: pointer;
+    background-color:rgb(67, 84, 249);
+    color: white;
+}

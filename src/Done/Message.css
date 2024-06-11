@@ -1,0 +1,60 @@
+.mtop {
+  position: absolute;
+  top: 3%;
+  right: 0.2%;
+  border-radius: 10px;
+  transform: translate(-3%, -0.2%);
+  background-color: #f6f6f9;
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.2);
+}
+
+.mtopin {
+  padding: 0 20px;
+  width: 22rem;
+}
+
+.cross {
+  margin-top: 6px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -5px;
+  zoom: 1.5;
+}
+
+.cross > .RxCross2 {
+  cursor: pointer;
+  color: black;
+}
+
+.mbot {
+  display: flex;
+  margin-left: -10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.mbot > .emoji > img {
+  height: 30px;
+}
+
+.mbot > .mess {
+  margin-left: 10px;
+}
+
+.mbot > .mess > h2{
+    font-size: 1.2rem;
+    color: black;
+  }
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.border-bottom {
+  border: 3px solid rgb(67, 160, 71);
+  border-radius: 10px;
+  position: relative;
+  bottom: 0.2px;
+  width: 97%;
+}

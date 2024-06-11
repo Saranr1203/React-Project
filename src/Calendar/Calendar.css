@@ -1,0 +1,10 @@
+.calendar{
+    margin-top: 3rem;
+    width: 90%;
+    margin-right: -2rem;
+}
+
+.cal{
+    background-color: gray;
+    border-radius: 20px;
+}
