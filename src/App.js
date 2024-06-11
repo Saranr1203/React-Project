@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Main from "./Route/Main";
 import "./Login/Login.css";
 import Dashboard from "./Route/Dashboard";
@@ -16,7 +16,7 @@ function App(props) {
 
   const settheme = () => {
     setTheme(!theme);
-    localStorage.setItem("theme", JSON.stringify(theme))
+    localStorage.setItem("theme", JSON.stringify(theme));
   };
 
   const showPro = () => {
@@ -35,7 +35,7 @@ function App(props) {
 
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route
             path="/"
@@ -86,7 +86,7 @@ function App(props) {
           />
           <Route exact path="/Forgetpass" element={<Forgetpass />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
